@@ -1,0 +1,152 @@
+
+html{
+  background-color:black;
+}
+
+#cctvbox {
+    width: 200px;
+    height: 100px;
+    border: 2px solid turquoise;
+    -webkit-border-radius: 100px / 60px;
+    -moz-border-radius: 100px / 60px;
+    border-radius: 100px / 60px;
+    position:absolute;
+    margin:10px 100px 0px 40px;
+}
+
+#systembox {
+    width: 900px;
+    height: 100px;
+    border: 2px solid turquoise;
+    position:absolute;
+    margin:10px 0px 100px 300px;
+}
+
+#mapbox {
+  height:500px;
+  width:150px;
+  border: 2px solid turquoise;
+  position:absolute;
+  margin:150px 500px 100px 50px;
+}
+
+#outercircle {
+   height: 300px;
+   width: 300px;
+   border: 2px solid turquoise;
+   border-radius: 50%;
+   position: relative;
+   display:inline-block;
+   margin:300px 200px 100px 450px;
+   /* 
+    Child elements with absolute positioning will be 
+    positioned relative to this div 
+   */
+  
+}
+ #innercircle {
+   height: 200px;
+   width: 200px;
+   border: 2px solid turquoise;
+   border-radius: 50%;
+   position: absolute;
+   /*
+    Put top edge and left edge in the center
+   */
+   top: 50%;
+   left: 50%;
+   margin: -100px 0px 0px -100px;
+   /* 
+    Offset the position correctly with
+    minus.container {
+  
+    } half of the width and minus half of the height 
+   */
+ }
+ #firstbox {
+    width: 200px;
+    height: 120px;
+    border: 2px solid turquoise;
+    position:relative;
+    margin:20px 0px 0px 0px;
+ }
+ #secondbox{
+    width: 200px;
+    height: 120px;
+    border: 2px solid turquoise;
+    position:relative;
+    margin:20px 0px 0px 0px;
+ }
+ 
+ #thirdbox{
+    width: 200px;
+    height: 120px;
+    border: 2px solid turquoise;
+    position:relative;
+    margin:20px 0px 0px 0px;
+ }
+ .boxcontainer {
+  float:right;
+  margin:170px 800px 50px 1000px;
+ }
+
+ #welcomebox {
+    width: 1150px;
+    height: 50px;
+    border: 2px solid turquoise;
+    position:absolute;
+    margin:700px 300px 0px 50px;
+ }
+
+  div {
+    position:absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: 10px 200px 50px 50px;
+
+
+}
+#firstbox img {
+  height:100px;
+  width:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#secondbox img {
+  height:100px;
+  width:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+#thirdbox img {
+  height:100px;
+  width:50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+h2{
+  text-align:center;
+  text-shadow: 2px 2px red;
+}
+h4 {
+  text-align:center;
+}
+button{
+    height:50px; 
+    width:100px; 
+    position:absolute;
+    background-color: red;
+    border-radius:20px;
+  }
+  #innercircle img {
+    height:100px;
+    width:100px;
+    position:relative;
+    margin-left: 50px;
+  }
