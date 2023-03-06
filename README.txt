@@ -1,4 +1,4 @@
-# How to get test up and running:
+#How to get test up and running:
 
 Extract the file and open the index.html webpage using either Safari or Google Chrome. 
 The star galactica interface will then present itself. 
